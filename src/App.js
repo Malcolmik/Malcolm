@@ -284,6 +284,68 @@ export default function App() {
         </section>
 
 
+        {/* Freelance Projects Section */}
+        <section id="freelance" className="py-20 px-4 bg-black">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl font-bold mb-10 text-center text-red-600">Freelance Projects</h2>
+            <p className="text-gray-400 text-center mb-12">
+              Selected websites built for real-world clients in plumbing and home services.
+            </p>
+            <div className="grid md:grid-cols-2 gap-8">
+              {[
+                {
+                  title: "Earthy Plumbing",
+                  image: "earthy-hero.png",
+                  description: "Eco-inspired landing page with a strong CTA and soft visuals to drive leads.",
+                  link: "https://earthy-plumb-connect.lovable.app/",
+                },
+                {
+                  title: "plumbing103",
+                  image: "plumbing103.png",
+                  description: "Conversion-focused website with floating 'Book Now' buttons and trust cues.",
+                  link: "https://plumbing-103.lovable.app/",
+                },
+                {
+                  title: "ProPlumb",
+                  image: "proPlumb.png",
+                  description: "A results-driven site featuring standout 'Book Now' prompts and credibility-boosting elements.",
+                  link: "https://clean-plumb-lead-flow.lovable.app/",
+                },
+                {
+                  title: "Plumber105",
+                  image: "plumb105.png",
+                  description: "Built to guide visitors seamlessly from initial interest to booking, turning leads into paying customers through clear CTAs and trust-enhancing design.",
+                  link: "https://service-suds-site.lovable.app/",
+                },
+              ].map((proj, idx) => (
+                <div key={idx} className="bg-[#1c1c1c] rounded-xl overflow-hidden shadow-lg hover:shadow-red-800/20 transition">
+                  <div className="overflow-hidden">
+                    <img
+                      src={proj.image}
+                      alt={`${proj.title} screenshot`}
+                      className="w-full h-50 object-cover transform transition-transform duration-300 hover:scale-105"
+                    />
+                  </div>
+                  <div className="p-4">
+                    <h3 className="text-xl font-semibold text-white mb-2">{proj.title}</h3>
+                    <p className="text-gray-400 mb-4">{proj.description}</p>
+                    <a
+                      href={proj.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-red-500 hover:underline"
+                    >
+                      View Live
+                    </a>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+
+
         {/* Contact */}
         <section id="contact" className="py-20 px-4 max-w-4xl mx-auto text-center" data-aos="zoom-in">
           <h2 className="text-3xl font-bold mb-6 text-red-600">Contact</h2>
