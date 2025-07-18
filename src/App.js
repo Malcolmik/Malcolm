@@ -102,7 +102,7 @@ export default function App() {
             <div className="md:w-1/2 text-center md:text-left">
               <h2 className="text-4xl font-bold mb-4 text-red-600"> About Me</h2>
               <p className="text-lg text-gray-300 leading-relaxed">
-                I am a final year Computer Science student at the university of wolverhampton, who is passionate about developing helpful and easy-to-use tools whether a web application, an AI chatbot, or a design project. Here are some technologies I am familiar with:</p>
+                I am a First Class Computer Science Graduate from the university of wolverhampton, who is passionate about developing helpful and easy-to-use tools whether a web application, an AI chatbot, or a design project. Here are some technologies I am familiar with:</p>
                 <div className="flex gap-8">
                   <ul className="red-bullets">
                     <li>Python</li>
