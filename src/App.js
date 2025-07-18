@@ -51,7 +51,7 @@ export default function App() {
               </a>
             </li>
             <li>
-              <a href="/Ikpasaja_Malcolm_Resume.pdf" download>
+              <a href="/Malcolm_ikpasaja_cv.pdf" download>
                 <svg className="w-6 h-6 hover:text-red-500 transition" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7z" />
                 </svg>
