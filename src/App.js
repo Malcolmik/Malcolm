@@ -354,9 +354,6 @@ export default function App() {
           <p className="text-gray-400">
             Email: <a href="mailto:ikpasajamalcolm@gmail.com" className="text-red-500 hover:underline">ikpasajamalcolm@gmail.com</a>
           </p>
-          <button onClick={() => track('HireMe_Click', { location: 'Hero' })}>
-            Hire Me
-          </button>
         </section>
 
         {/* Footer */}
